@@ -11,3 +11,5 @@ Wrap the text 2/3 cup (55g) in a span element.
 Step 23
 Now we can add the horizontal spacing using flex. In your p selector, add a display property set to flex and a justify-content property set to space-between.
 
+Step 24
+Wrap everything within the .label element in a new header element.
