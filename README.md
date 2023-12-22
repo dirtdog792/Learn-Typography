@@ -49,3 +49,5 @@ Step 41
 The text % Daily Value * should be aligned to the right. Create a .right selector and use the justify-content property to do it.
 Step 42
 Use your existing .divider element as an example to add a new divider after the p element.
+Step 43
+After your last .divider element, create a p element and give it the text Total Fat 8g 10%. Wrap the text Total Fat in a span element with the class of bold. Wrap the text 10% in another span element with the class of bold. Finally, nest the Total Fat span element and the text 8g in an additional span element for alignment.
