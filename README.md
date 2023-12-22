@@ -51,3 +51,70 @@ Step 42
 Use your existing .divider element as an example to add a new divider after the p element.
 Step 43
 After your last .divider element, create a p element and give it the text Total Fat 8g 10%. Wrap the text Total Fat in a span element with the class of bold. Wrap the text 10% in another span element with the class of bold. Finally, nest the Total Fat span element and the text 8g in an additional span element for alignment.
+Step 44Passed
+Below your element with the Total Fat text, create a new p element with the text Saturated Fat 1g 5%. Wrap the 5% in a span with the class attribute set to bold. In this case this is enough to align the percentage to 5%.
+Step 45
+This new p element will need to be indented. Give it a class set to indent.
+Step 46
+Create a new .indent selector and give it a margin-left property set to 1em.
+Step 47
+Create a .daily-value p selector to target all of your p elements in the daily-value section. Give this new selector a border-bottom set to 1px solid #888989.
+Step 48Passed
+The bottom borders under your % Daily Value * and Saturated Fat 1g 5% elements do not extend the full width of the label. Add no-divider to the class for these two elements.
+Step 49Passed
+The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+div:not(#example) {
+  color: red;
+}
+The above selects all div elements without an id of example.
+
+Modify your .daily-value p selector to exclude the .no-divider elements.
+Step 50
+Now you will have to add separate dividers below your .no-divider elements.
+
+Your first .no-divider element has a .divider after it. Create another .divider after your second .no-divider element.
+Step 51
+After your last .divider, create another p element with the text Trans Fat 0g. Italicize the word Trans by wrapping it in an i element. Give the new p element the class attribute set to indent no-divider. Wrap Trans Fat 0g in a span element for alignment.
+Step 52
+Create another .divider after your last p element.
+Step 53
+After your last .divider, create a new p element with the text Cholesterol 0mg 0%. Wrap the text Cholesterol in a span element, and give that span element the class of bold. Wrap the text 0% in another span element, with the class of bold. Finally, nest the Cholesterol span element and the text 0mg in an additional span element for alignment.
+Step 54
+Below your last p element, create another p element with the text Sodium 160mg 7%. Wrap the text Sodium in a span element with a class attribute set to bold. Wrap the 7% text in another span element with the class set to bold. Also add an additional span element around Sodium 160mg for aligning it correctly.
+Step 55
+Below your last p element, add another p element with the text Total Carbohydrate 37g 13%. Like before, use span elements to make the text Total Carbohydrate and 13% bold. Also add an additional span element around the Total Carbohydrate 37g text to have it aligned to the left and 13% to the right.
+Step 56
+Below your last p element, add another p element with the text Dietary Fiber 4g. Give the p element the class necessary to indent it and remove the dividing border. Then create a divider below that p element.
+Step 57Passed
+Create another p element after your last .divider, and give it the text Total Sugars 12g. Assign that p element the class values necessary to indent it and remove the bottom border. Then create another .divider below your new p element.
+Step 58
+The advantage to creating these dividers is that you can apply specific classes to style them individually. Add double-indent to the class for your last .divider.
+Step 59
+Create a .double-indent selector and give it a left margin of 2em.
+Step 60
+Below your .double-indent element, add a new p element with the text Includes 10g Added Sugars 20%. Your new p element should also be double indented, and have no bottom border. Use a span to make the 20% bold and right aligned.
+
+Then create another divider after that p element.
+Step 61
+After your last divider, create another p element with the text Protein 3g. Use the necessary classes to remove the bottom border, and a span to make the Protein bold.
+
+Following this element, create a large divider.
+Step 62
+Create another p element below your large divider. Give the p element the text Vitamin D 2mcg 10%.
+
+The p element contains only text, you can wrap the percentage in a span element so that it is considered a separate entity from the rest of the text, and it's moved to the right.
+Step 63
+Create another p element, give it the text Calcium 260mg 20%. Align 20% to the right. Below that, create a p element with the text Iron 8mg 45%, aligning the 45% to the right.
+Step 64
+Create the final p element for your .daily-value section. Give it the text Potassium 235mg 6%. Align the 6% text to the right, and remove the bottom border of the p element.
+Step 65
+Add a medium divider after your .daily-value element. Below that new divider, create a p element with the class attribute set to note.
+
+Give the p element the following text:
+Step 66
+Create a .note selector, and set the size of the font to 0.6rem. Also set the top and bottom margins to 5px, removing the left and right margins.
+Step 67
+Give the .note selector a left and right padding of 8px, removing the top and bottom padding. Also set the text-indent property to -8px.
+
+With these last changes, your nutrition label is complete!
